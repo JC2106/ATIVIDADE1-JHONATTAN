@@ -1,0 +1,149 @@
+*{
+    margin: auto;
+}
+
+.usuario1{ grid-template: usuario1;}
+.mn1{grid-template: mn1;}
+.home{grid-template: home;}
+.chat{grid-template: chat;}
+.contact{grid-template: contact;}
+.notifications{grid-template: notifications;}
+.calendar{grid-template: clendar;}
+.settings{grid-template: settings;}
+
+.menu{
+    display: grid;
+    grid-template-areas: 
+   'usuario1'
+    'mn1'
+    'home'
+    'chat'
+    'contact'
+    'notifications'
+    'clender'
+    'settings';
+}
+
+.menu{
+    position: absolute;
+    width: 290px;
+    height: 1080px;
+
+    background: #FFFFFF;
+}
+
+.usuario1{
+    width: 86px;
+    height: 86px; 
+}
+
+.mn1{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0D1C2E;
+}
+
+.home{
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #707C97;
+}
+
+.chat{
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #2A8BF2;
+}
+
+.contact{
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #707C97; 
+}
+
+.notifications{
+    
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #707C97;
+}
+
+.calendar{
+    
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #707C97;
+}
+
+.settings{
+    
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #707C97;
+}
